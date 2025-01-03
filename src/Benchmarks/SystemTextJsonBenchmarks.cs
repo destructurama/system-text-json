@@ -43,9 +43,7 @@ public class SystemTextJsonBenchmarks
             D = new Dictionary<int, string> { { 1, "One" }, { 2, "Two" } },
             E = (object?)null,
             ESPN = JsonSerializer.Deserialize<dynamic>("{\"\":\"Empty string property name\"}"),
-#pragma warning disable JSON001 // Invalid JSON pattern
-            WSPN = JsonSerializer.Deserialize<dynamic>("{\"\r\n\":\"Whitespace property name\"}")
-#pragma warning restore JSON001 // Invalid JSON pattern
+            WSPN = JsonSerializer.Deserialize<dynamic>("{\"  \":\"Whitespace property name\"}")
         };
 
         string ser = JsonSerializer.Serialize(test);
