@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736368898086,
+  "lastUpdate": 1736580427555,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -60,6 +60,36 @@ window.BENCHMARK_DATA = {
             "value": 2465.207378114973,
             "unit": "ns",
             "range": "± 20.152763333939124"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e26e304ea3c498cdb23be9ff99655063da550073",
+          "message": "Bump xunit.runner.visualstudio from 3.0.0 to 3.0.1 in /src (#3)\n\nBumps [xunit.runner.visualstudio](https://github.com/xunit/visualstudio.xunit) from 3.0.0 to 3.0.1.\r\n- [Release notes](https://github.com/xunit/visualstudio.xunit/releases)\r\n- [Commits](https://github.com/xunit/visualstudio.xunit/compare/3.0.0...3.0.1)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: xunit.runner.visualstudio\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-01-11T10:26:09+03:00",
+          "tree_id": "e01c81439b3144e8b60a75fe06febe2ba471ba92",
+          "url": "https://github.com/destructurama/system-text-json/commit/e26e304ea3c498cdb23be9ff99655063da550073"
+        },
+        "date": 1736580427171,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 2436.4190415602466,
+            "unit": "ns",
+            "range": "± 6.516287261502349"
           }
         ]
       }
