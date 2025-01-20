@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736580427555,
+  "lastUpdate": 1737410437629,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -90,6 +90,36 @@ window.BENCHMARK_DATA = {
             "value": 2436.4190415602466,
             "unit": "ns",
             "range": "± 6.516287261502349"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fe3ca7f4e10f51331ccb5de36026f80388dd5f3e",
+          "message": "Bump coverlet.msbuild from 6.0.3 to 6.0.4 in /src (#4)\n\nBumps [coverlet.msbuild](https://github.com/coverlet-coverage/coverlet) from 6.0.3 to 6.0.4.\r\n- [Release notes](https://github.com/coverlet-coverage/coverlet/releases)\r\n- [Commits](https://github.com/coverlet-coverage/coverlet/compare/v6.0.3...v6.0.4)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: coverlet.msbuild\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-01-21T00:59:35+03:00",
+          "tree_id": "bd1d0d99b9fe70187708a86dc628198caf35698a",
+          "url": "https://github.com/destructurama/system-text-json/commit/fe3ca7f4e10f51331ccb5de36026f80388dd5f3e"
+        },
+        "date": 1737410437347,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 2387.5347646985733,
+            "unit": "ns",
+            "range": "± 41.91296322038197"
           }
         ]
       }
