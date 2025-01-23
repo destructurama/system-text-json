@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737410437629,
+  "lastUpdate": 1737664908929,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -120,6 +120,36 @@ window.BENCHMARK_DATA = {
             "value": 2387.5347646985733,
             "unit": "ns",
             "range": "± 41.91296322038197"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9eb05be3f6d0ddb361b4167b6ebc1c61d0003b45",
+          "message": "Bump Shouldly from 4.2.1 to 4.3.0 in /src (#5)\n\nBumps [Shouldly](https://github.com/shouldly/shouldly) from 4.2.1 to 4.3.0.\r\n- [Release notes](https://github.com/shouldly/shouldly/releases)\r\n- [Changelog](https://github.com/shouldly/shouldly/blob/master/BREAKING%20CHANGES.txt)\r\n- [Commits](https://github.com/shouldly/shouldly/compare/4.2.1...4.3.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: Shouldly\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-01-23T23:40:46+03:00",
+          "tree_id": "cc85aa4dfc5c553ef153df204d54f99babe271cb",
+          "url": "https://github.com/destructurama/system-text-json/commit/9eb05be3f6d0ddb361b4167b6ebc1c61d0003b45"
+        },
+        "date": 1737664908012,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 2346.2949562072754,
+            "unit": "ns",
+            "range": "± 25.1288013083467"
           }
         ]
       }
