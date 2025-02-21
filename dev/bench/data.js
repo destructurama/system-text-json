@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740121782526,
+  "lastUpdate": 1740121812404,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -270,6 +270,36 @@ window.BENCHMARK_DATA = {
             "value": 2464.9383564903624,
             "unit": "ns",
             "range": "± 58.08988536273566"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f4c8eace38b7f1c8fbaecaccda6eac6f42ddd4d3",
+          "message": "Bump xunit.runner.visualstudio from 3.0.1 to 3.0.2 in /src (#11)\n\nBumps [xunit.runner.visualstudio](https://github.com/xunit/visualstudio.xunit) from 3.0.1 to 3.0.2.\n- [Release notes](https://github.com/xunit/visualstudio.xunit/releases)\n- [Commits](https://github.com/xunit/visualstudio.xunit/compare/3.0.1...3.0.2)\n\n---\nupdated-dependencies:\n- dependency-name: xunit.runner.visualstudio\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-02-21T10:09:12+03:00",
+          "tree_id": "01c56abb5756a4818559ba62ce70e5b2f4f82c67",
+          "url": "https://github.com/destructurama/system-text-json/commit/f4c8eace38b7f1c8fbaecaccda6eac6f42ddd4d3"
+        },
+        "date": 1740121812004,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 2445.078845977783,
+            "unit": "ns",
+            "range": "± 40.642351097802425"
           }
         ]
       }
