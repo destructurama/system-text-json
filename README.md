@@ -36,16 +36,41 @@ Install-Package Destructurama.SystemTextJson
 Modify logger configuration:
 
 ```csharp
-var log = new LoggerConfiguration()
-  .Destructure.SystemTextJsonTypes()
-  ...
+var log = new LoggerConfiguration().Destructure.SystemTextJsonTypes()
 ```
 
-Any System.Text.Json dynamic object can be represented in the log event's properties:
+Now any System.Text.Json dynamic object can be represented in the log event's properties:
 
 ```csharp
-var obj = JsonSerializer.Deserialize<dynamic>(someJson);
-Log.Information("Deserialized {@Obj}", obj);
+using System.Text.Json;
+using Destructurama;
+using Serilog;
+
+var logger1 = new LoggerConfiguration().WriteTo.Console().CreateLogger();
+var logger2 = new LoggerConfiguration().Destructure.SystemTextJsonTypes().WriteTo.Console().CreateLogger();
+
+var json = """
+    {
+      "name": "Tom",
+      "age": 42,
+      "isDeveloper": true
+    }
+    """;
+
+var obj = JsonSerializer.Deserialize<dynamic>(json);
+
+logger1.Information("Deserialized without SystemTextJsonTypes(): {@Obj}", obj);
+
+logger2.Information("Deserialized with SystemTextJsonTypes(): {@Obj}", obj);
+
+Console.ReadKey();
+```
+
+Output:
+
+```
+[21:15:52 INF] Deserialized without SystemTextJsonTypes(): {"ValueKind": "Object", "$type": "JsonElement"}
+[21:15:53 INF] Deserialized with SystemTextJsonTypes(): {"name": "Tom", "age": 42, "isDeveloper": true}
 ```
 
 # Benchmarks
