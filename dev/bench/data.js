@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760032181953,
+  "lastUpdate": 1760032398475,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -420,6 +420,36 @@ window.BENCHMARK_DATA = {
             "value": 2496.0317118718076,
             "unit": "ns",
             "range": "± 15.638830019381677"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8a87d232c9966be0761254dfd2218e3db4be1cf4",
+          "message": "Bump actions/stale from 9 to 10 (#16)\n\nBumps [actions/stale](https://github.com/actions/stale) from 9 to 10.\n- [Release notes](https://github.com/actions/stale/releases)\n- [Changelog](https://github.com/actions/stale/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/stale/compare/v9...v10)\n\n---\nupdated-dependencies:\n- dependency-name: actions/stale\n  dependency-version: '10'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-10-09T20:52:10+03:00",
+          "tree_id": "c6c257467bdb8046cb6b7edf4e8e6be596ff3eae",
+          "url": "https://github.com/destructurama/system-text-json/commit/8a87d232c9966be0761254dfd2218e3db4be1cf4"
+        },
+        "date": 1760032397597,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 2337.9435227711997,
+            "unit": "ns",
+            "range": "± 11.782143585158998"
           }
         ]
       }
