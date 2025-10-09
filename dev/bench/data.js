@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760032427957,
+  "lastUpdate": 1760041947682,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -510,6 +510,36 @@ window.BENCHMARK_DATA = {
             "value": 2533.8224469502766,
             "unit": "ns",
             "range": "± 37.00194230124449"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c02beedef9e923f0db3cfb30872c74774b4debd",
+          "message": "Bump github/codeql-action from 3 to 4 (#19)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 3 to 4.\n- [Release notes](https://github.com/github/codeql-action/releases)\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/github/codeql-action/compare/v3...v4)\n\n---\nupdated-dependencies:\n- dependency-name: github/codeql-action\n  dependency-version: '4'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-10-09T23:31:25+03:00",
+          "tree_id": "208ccdac1ebe875160394a5d5c283f7e2d30ac5d",
+          "url": "https://github.com/destructurama/system-text-json/commit/5c02beedef9e923f0db3cfb30872c74774b4debd"
+        },
+        "date": 1760041947104,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 2460.514789835612,
+            "unit": "ns",
+            "range": "± 12.560214146063707"
           }
         ]
       }
