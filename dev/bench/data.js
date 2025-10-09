@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760031969446,
+  "lastUpdate": 1760032181953,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -390,6 +390,36 @@ window.BENCHMARK_DATA = {
             "value": 2349.525893656413,
             "unit": "ns",
             "range": "± 17.11258149509481"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8a2fbc0d6ef606d5e50007766d571a4e10499180",
+          "message": "Bump actions/setup-dotnet from 4 to 5 (#15)\n\nBumps [actions/setup-dotnet](https://github.com/actions/setup-dotnet) from 4 to 5.\n- [Release notes](https://github.com/actions/setup-dotnet/releases)\n- [Commits](https://github.com/actions/setup-dotnet/compare/v4...v5)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-dotnet\n  dependency-version: '5'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-10-09T20:48:37+03:00",
+          "tree_id": "89563257b5181e472b59eec99284be9178c366ae",
+          "url": "https://github.com/destructurama/system-text-json/commit/8a2fbc0d6ef606d5e50007766d571a4e10499180"
+        },
+        "date": 1760032181362,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 2496.0317118718076,
+            "unit": "ns",
+            "range": "± 15.638830019381677"
           }
         ]
       }
