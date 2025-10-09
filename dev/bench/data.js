@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741065760700,
+  "lastUpdate": 1760031969446,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -360,6 +360,36 @@ window.BENCHMARK_DATA = {
             "value": 2332.1641796112062,
             "unit": "ns",
             "range": "± 30.01756031649472"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "db9fa30f1a8e62fe8c8f28fa7046cb8eaee74a68",
+          "message": "Bump actions/checkout from 4 to 5 (#14)\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 4 to 5.\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/v4...v5)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-version: '5'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-10-09T20:44:42+03:00",
+          "tree_id": "b7b9c5a46533bf7c01d7d2b8d9f8c43ce4e839a8",
+          "url": "https://github.com/destructurama/system-text-json/commit/db9fa30f1a8e62fe8c8f28fa7046cb8eaee74a68"
+        },
+        "date": 1760031968917,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 2349.525893656413,
+            "unit": "ns",
+            "range": "± 17.11258149509481"
           }
         ]
       }
