@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760041947682,
+  "lastUpdate": 1760079614619,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -540,6 +540,36 @@ window.BENCHMARK_DATA = {
             "value": 2460.514789835612,
             "unit": "ns",
             "range": "± 12.560214146063707"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sungam3r@yandex.ru",
+            "name": "Ivan Maximov",
+            "username": "sungam3r"
+          },
+          "committer": {
+            "email": "sungam3r@yandex.ru",
+            "name": "Ivan Maximov",
+            "username": "sungam3r"
+          },
+          "distinct": true,
+          "id": "6c10f54c7cf050653cbe3cff7ff66c5ba796f67b",
+          "message": "Do not pack/publish sample",
+          "timestamp": "2025-10-10T09:59:09+03:00",
+          "tree_id": "fb85f9d5b5ab20babd25f31c3f355ef5d67fbfea",
+          "url": "https://github.com/destructurama/system-text-json/commit/6c10f54c7cf050653cbe3cff7ff66c5ba796f67b"
+        },
+        "date": 1760079613688,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 2266.4796322413854,
+            "unit": "ns",
+            "range": "± 8.03951072703826"
           }
         ]
       }
