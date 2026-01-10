@@ -14,7 +14,6 @@
 
 using PublicApiGenerator;
 using Shouldly;
-using Xunit;
 
 namespace Destructurama.SystemTextJson.Tests;
 
