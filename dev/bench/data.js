@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770143026402,
+  "lastUpdate": 1772885352530,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -1080,6 +1080,36 @@ window.BENCHMARK_DATA = {
             "value": 2253.2265079498293,
             "unit": "ns",
             "range": "± 35.19938574935281"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7787a2555a6effa5c9ecd4827d57708f4c88d5ef",
+          "message": "Bump actions/upload-artifact from 6 to 7 (#42)\n\n* Bump actions/upload-artifact from 6 to 7\n\nBumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 6 to 7.\n- [Release notes](https://github.com/actions/upload-artifact/releases)\n- [Commits](https://github.com/actions/upload-artifact/compare/v6...v7)\n\n---\nupdated-dependencies:\n- dependency-name: actions/upload-artifact\n  dependency-version: '7'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\n\n* fix\n\n---------\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Ivan Maximov <sungam3r@yandex.ru>",
+          "timestamp": "2026-03-07T15:08:08+03:00",
+          "tree_id": "cc6da1421ec40c8b7da03760bea7f933eebd4171",
+          "url": "https://github.com/destructurama/system-text-json/commit/7787a2555a6effa5c9ecd4827d57708f4c88d5ef"
+        },
+        "date": 1772885351598,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 2149.859864552816,
+            "unit": "ns",
+            "range": "± 10.093083314185384"
           }
         ]
       }
