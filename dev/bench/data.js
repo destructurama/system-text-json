@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777527076631,
+  "lastUpdate": 1778821015102,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -1530,6 +1530,36 @@ window.BENCHMARK_DATA = {
             "value": 2117.3975868225098,
             "unit": "ns",
             "range": "± 6.073079568412895"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1907290d9e8f26363dd4a2b011894607ce82e4d5",
+          "message": "Bump System.Text.Json from 10.0.7 to 10.0.8 (#59)\n\n---\nupdated-dependencies:\n- dependency-name: System.Text.Json\n  dependency-version: 10.0.8\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-05-15T07:56:00+03:00",
+          "tree_id": "3b3e6017ba1bceb826c043faa1c5359439e1eae7",
+          "url": "https://github.com/destructurama/system-text-json/commit/1907290d9e8f26363dd4a2b011894607ce82e4d5"
+        },
+        "date": 1778821014777,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 1976.1538251241047,
+            "unit": "ns",
+            "range": "± 9.734582807685442"
           }
         ]
       }
