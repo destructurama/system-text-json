@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779380112199,
+  "lastUpdate": 1779828467862,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -1590,6 +1590,36 @@ window.BENCHMARK_DATA = {
             "value": 2195.6489843641007,
             "unit": "ns",
             "range": "± 16.097481953119537"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b7f4e010ca419ca9c2a9e7faff0e9c680007c566",
+          "message": "Bump PolySharp from 1.15.0 to 1.16.0 (#62)\n\n---\nupdated-dependencies:\n- dependency-name: PolySharp\n  dependency-version: 1.16.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-05-26T23:46:47+03:00",
+          "tree_id": "c7b33bf0c4a3f52aa5e3da6b678fd79f62308f57",
+          "url": "https://github.com/destructurama/system-text-json/commit/b7f4e010ca419ca9c2a9e7faff0e9c680007c566"
+        },
+        "date": 1779828466975,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 1998.9619979858398,
+            "unit": "ns",
+            "range": "± 6.007445193338199"
           }
         ]
       }
