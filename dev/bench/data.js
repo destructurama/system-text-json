@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786599433985,
+  "lastUpdate": 1786599708645,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -1710,6 +1710,36 @@ window.BENCHMARK_DATA = {
             "value": 2032.3002665201823,
             "unit": "ns",
             "range": "± 31.709760561694438"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c8288b4c4b8545c4b883f5564fdaac1b6d2f46c3",
+          "message": "Bump actions/checkout from 6 to 7 (#68)\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 6 to 7.\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/v6...v7)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-version: '7'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-13T08:40:48+03:00",
+          "tree_id": "6dcdab9324d356888ea19bf82f0e8f4d06b41fec",
+          "url": "https://github.com/destructurama/system-text-json/commit/c8288b4c4b8545c4b883f5564fdaac1b6d2f46c3"
+        },
+        "date": 1786599707612,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 2162.7918107350665,
+            "unit": "ns",
+            "range": "± 29.43102322807448"
           }
         ]
       }
