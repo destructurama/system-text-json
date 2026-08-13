@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786598022302,
+  "lastUpdate": 1786599230221,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -1650,6 +1650,36 @@ window.BENCHMARK_DATA = {
             "value": 2138.5054018656415,
             "unit": "ns",
             "range": "± 25.626755522771113"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b5c6e0537cf5f73ea1a552ffa401dac046134487",
+          "message": "Bump actions/stale from 10 to 11 (#77)\n\nBumps [actions/stale](https://github.com/actions/stale) from 10 to 11.\n- [Release notes](https://github.com/actions/stale/releases)\n- [Changelog](https://github.com/actions/stale/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/stale/compare/v10...v11)\n\n---\nupdated-dependencies:\n- dependency-name: actions/stale\n  dependency-version: '11'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-13T08:32:49+03:00",
+          "tree_id": "5ef06a709214a0675faeaf442e7afa081cc2c599",
+          "url": "https://github.com/destructurama/system-text-json/commit/b5c6e0537cf5f73ea1a552ffa401dac046134487"
+        },
+        "date": 1786599229497,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 1984.501042502267,
+            "unit": "ns",
+            "range": "± 18.735774933582867"
           }
         ]
       }
