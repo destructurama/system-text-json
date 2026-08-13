@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786599230221,
+  "lastUpdate": 1786599433985,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -1680,6 +1680,36 @@ window.BENCHMARK_DATA = {
             "value": 1984.501042502267,
             "unit": "ns",
             "range": "± 18.735774933582867"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "47c7a1b6da4b28d5bcdfacac5353f76018b7f285",
+          "message": "Bump actions/labeler from 6 to 7 (#76)\n\nBumps [actions/labeler](https://github.com/actions/labeler) from 6 to 7.\n- [Release notes](https://github.com/actions/labeler/releases)\n- [Commits](https://github.com/actions/labeler/compare/v6...v7)\n\n---\nupdated-dependencies:\n- dependency-name: actions/labeler\n  dependency-version: '7'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-13T08:36:18+03:00",
+          "tree_id": "1aab8bff6b02846fa878eee87f5b5b4f9a20c9e6",
+          "url": "https://github.com/destructurama/system-text-json/commit/47c7a1b6da4b28d5bcdfacac5353f76018b7f285"
+        },
+        "date": 1786599433487,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 2032.3002665201823,
+            "unit": "ns",
+            "range": "± 31.709760561694438"
           }
         ]
       }
