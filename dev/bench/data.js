@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786683145841,
+  "lastUpdate": 1786701946065,
   "repoUrl": "https://github.com/destructurama/system-text-json",
   "entries": {
     "Benchmarks": [
@@ -1920,6 +1920,36 @@ window.BENCHMARK_DATA = {
             "value": 2035.0285254887172,
             "unit": "ns",
             "range": "± 26.656513390984554"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "52c41e98b7aa6d00cda4254c12fab72f36cdf566",
+          "message": "Bump Roslynator.Formatting.Analyzers from 4.15.0 to 4.16.0 (#79)\n\n---\nupdated-dependencies:\n- dependency-name: Roslynator.Formatting.Analyzers\n  dependency-version: 4.16.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-14T13:04:39+03:00",
+          "tree_id": "fbcd5782650335a1f65a5f240778b2015884fb0b",
+          "url": "https://github.com/destructurama/system-text-json/commit/52c41e98b7aa6d00cda4254c12fab72f36cdf566"
+        },
+        "date": 1786701945029,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Benchmarks.SystemTextJsonBenchmarks.Destructure",
+            "value": 2333.1972097669327,
+            "unit": "ns",
+            "range": "± 13.708637465476464"
           }
         ]
       }
